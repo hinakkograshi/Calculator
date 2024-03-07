@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		532E8C0C2B9A010600429A8B /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 532E8C0B2B9A010600429A8B /* UIView+Extension.swift */; };
+		532E8C0E2B9A0A2300429A8B /* AmountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 532E8C0D2B9A0A2300429A8B /* AmountView.swift */; };
 		535A67782B968506009614BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 535A67772B968506009614BD /* AppDelegate.swift */; };
 		535A677A2B968506009614BD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 535A67792B968506009614BD /* SceneDelegate.swift */; };
 		535A677C2B968506009614BD /* CalculatorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 535A677B2B968506009614BD /* CalculatorVC.swift */; };
@@ -50,6 +52,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		532E8C0B2B9A010600429A8B /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		532E8C0D2B9A0A2300429A8B /* AmountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmountView.swift; sourceTree = "<group>"; };
 		535A67742B968506009614BD /* Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		535A67772B968506009614BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		535A67792B968506009614BD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -171,6 +175,7 @@
 			children = (
 				53EC7FCE2B989057007FCC87 /* LogoView.swift */,
 				53EC7FD02B98923D007FCC87 /* ResultView.swift */,
+				532E8C0D2B9A0A2300429A8B /* AmountView.swift */,
 				53EC7FD22B989287007FCC87 /* BillInputView.swift */,
 				53EC7FD42B9892A7007FCC87 /* TipInputView.swift */,
 				53EC7FD62B9892CD007FCC87 /* SplitInputView.swift */,
@@ -191,6 +196,7 @@
 			isa = PBXGroup;
 			children = (
 				53F50C8D2B991C3900EB49EF /* UIColor+Extention.swift */,
+				532E8C0B2B9A010600429A8B /* UIView+Extension.swift */,
 			);
 			path = Extention;
 			sourceTree = "<group>";
@@ -350,7 +356,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				532E8C0E2B9A0A2300429A8B /* AmountView.swift in Sources */,
 				535A677C2B968506009614BD /* CalculatorVC.swift in Sources */,
+				532E8C0C2B9A010600429A8B /* UIView+Extension.swift in Sources */,
 				53EC7FCF2B989057007FCC87 /* LogoView.swift in Sources */,
 				53F50C882B991BAE00EB49EF /* ThemeColor.swift in Sources */,
 				53EC7FD32B989287007FCC87 /* BillInputView.swift in Sources */,

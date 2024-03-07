@@ -23,7 +23,7 @@ class CalculatorVC: UIViewController {
         billInputView,
         tipInputView,
         splitInputView,
-//        UIView()
+        UIView()
         ])
         stackView.axis = .vertical
         stackView.spacing = 36
@@ -58,7 +58,7 @@ class CalculatorVC: UIViewController {
             make.height.equalTo(56)
         }
 
-        logoView.snp.makeConstraints { make in
+        tipInputView.snp.makeConstraints { make in
             make.height.equalTo(56+16+56)
         }
 
