@@ -65,11 +65,14 @@ class LogoView: UIView {
     private func layout() {
         addSubview(hStackView)
         hStackView.snp.makeConstraints { make in
+            //親Viewの上端と下端と合わせる
             make.top.bottom.equalToSuperview()
+            //親ViewのX軸上の中心と合わせる
             make.centerX.equalToSuperview()
         }
 
         imageView.snp.makeConstraints { make in
+            //imageViewの高さと幅を同じにする
             make.height.equalTo(imageView.snp.width)
         }
     }

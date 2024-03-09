@@ -72,6 +72,7 @@ class ResultView: UIView {
         backgroundColor = .white
         addSubview(vStackView)
         vStackView.snp.makeConstraints { make in
+            //現在のビューResultView（self）offsetずらす
             make.top.equalTo(snp.top).offset(24)
             make.leading.equalTo(snp.leading).offset(24)
             make.trailing.equalTo(snp.trailing).offset(-24)
