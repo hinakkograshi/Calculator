@@ -10,7 +10,7 @@ import UIKit
 struct ThemeColor {
     static let bg = UIColor(hexString: "bde0fe")
     static let primary = UIColor(hexString: "a2d2ff")
-    static let sendary = UIColor.systemOrange
+    static let secondary = UIColor.systemOrange
     static let text = UIColor(hexString: "000000")
     static let separator = UIColor(hexString: "000000")
 }
