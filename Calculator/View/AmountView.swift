@@ -54,14 +54,18 @@ class AmountView: UIView {
         layout()
     }
 
-
-//    override init(frame: CGRect) {
-//        super.init(frame: frame)
-//        layout()
-//    }
-
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
+    }
+
+    func configure(amount: Double) {
+        let text = NSMutableAttributedString(
+            string: amount.currensyFormatted,
+            attributes: [.font: ThemeFont.bold(ofSize: 24)])
+        text.addAttributes(
+            [.font: ThemeFont.bold(ofSize: 16)],
+            range: NSMakeRange(0, 1))
+        amoumtLabel.attributedText = text
     }
     private func layout() {
         addSubview(stackView)
